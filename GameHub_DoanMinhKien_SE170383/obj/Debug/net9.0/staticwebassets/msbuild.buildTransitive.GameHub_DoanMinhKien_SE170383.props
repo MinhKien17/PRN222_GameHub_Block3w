@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\GameHub_DoanMinhKien_SE170383.props" />
+</Project>

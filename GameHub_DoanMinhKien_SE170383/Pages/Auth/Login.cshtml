@@ -1,0 +1,40 @@
+﻿@page
+@model GameHub_DoanMinhKien_SE170383.Pages.Auth.LoginModel
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="d-flex align-items-center justify-content-center min-vh-100">
+    <div class="card shadow-sm" style="max-width:420px; width:100%;">
+        <div class="card-body p-4">
+            <h3 class="card-title text-center mb-3">Login</h3>
+
+            <form method="post" novalidate>
+                <div class="mb-3">
+                    <label asp-for="Input.Email" class="form-label"></label>
+                    <input required asp-for="Input.Email" class="form-control" placeholder="you@example.com" />
+                    <div class="text-danger small" asp-validation-for="Input.email"></div>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Input.Password" class="form-label"></label>
+                    <input required asp-for="Input.Password" class="form-control" type="password" placeholder="Password" />
+                    <div class="text-danger small" asp-validation-for="Input.password"></div>
+                </div>
+
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary">Sign in</button>
+                </div>
+            </form>
+
+            <hr class="my-3" />
+            <div class="text-center small text-muted">
+                We'll never share your email with anyone else.
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

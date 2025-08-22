@@ -1,0 +1,46 @@
+﻿@page
+@model GameHub_DoanMinhKien_SE170383.Pages.Auth.AccessDeniedModel
+@{
+    ViewData["Title"] = "Access Denied";
+}
+
+<div class="d-flex align-items-center justify-content-center min-vh-100">
+    <div class="card shadow-sm text-center" style="max-width:640px; width:100%;">
+        <div class="card-body p-4">
+            <div class="mb-3">
+                <div style="font-size:48px; line-height:1;">🔒</div>
+            </div>
+
+            <h3 class="card-title mb-2">Access denied</h3>
+            <p class="text-muted mb-3">
+                You don't have permission to view this page or perform the requested action.
+            </p>
+
+            @if (Model.IsAuthenticated)
+            {
+                <p class="mb-1"><strong>User:</strong> @Model.Name</p>
+                <p class="mb-3">
+                    <strong>Role:</strong>
+                    <span class="badge bg-secondary">@Model.Role</span>
+                </p>
+            }
+
+            <div class="d-flex justify-content-center gap-2">
+                <a asp-page="/Index" class="btn btn-outline-primary">Back to Home</a>
+
+                @if (Model.IsAuthenticated)
+                {
+                    <form method="post" asp-page="/Auth/Logout" class="d-inline">
+                        <button type="submit" class="btn btn-outline-danger">Logout</button>
+                    </form>
+                }
+            </div>
+
+            <hr class="my-3" />
+
+            <div class="small text-muted">
+                If you think this is an error, contact the administrator.
+            </div>
+        </div>
+    </div>
+</div>

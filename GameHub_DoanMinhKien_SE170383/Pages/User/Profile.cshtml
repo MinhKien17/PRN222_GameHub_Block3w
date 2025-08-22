@@ -1,0 +1,176 @@
+﻿@page
+@model GameHub_DoanMinhKien_SE170383.Pages.User.ProfileModel
+@{
+    ViewData["Title"] = "My Profile";
+}
+
+<style>
+    .profile-left {
+        background-color: #2d2d2d;
+        background-size: cover;
+        background-position: center;
+		overflow: hidden; /* hide overflow to prevent scrollbars */
+    }
+
+    .profile-left img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        cursor: pointer;
+    }
+
+    .profile-right {
+        background-color: #f8f9fa;
+        padding: 3rem;
+    }
+
+    .profile-right .form-control {
+            max-width: 400px;
+    }
+
+    .profile-right .btn-primary {
+            width: 200px;
+    }
+
+</style>
+
+<div class="row">
+    <!-- Left: Profile picture -->
+    <div class="col-md-6 d-none d-md-flex align-items-center justify-content-center profile-left">
+        <input type="hidden" id="originalAvatar" value="@(Model.UserProfile?.ProfilePictureUrl)" />
+        <img id="profileAvatar"
+             src="@(Model.UserProfile?.ProfilePictureUrl)"
+             alt="Avatar"
+             data-bs-toggle="modal"
+             data-bs-target="#avatarModal" />
+    </div>
+
+    <!-- Right: Form -->
+    <div class="col-md-6 d-flex align-items-center justify-content-center profile-right">
+        <div class="w-100 px-4">
+            <h2 class="mb-4">@ViewData["Title"]</h2>
+            @if (TempData["Success"] != null)
+            {
+                <div class="alert alert-success">@TempData["Success"]</div>
+            }
+
+            <form method="post" enctype="multipart/form-data" novalidate>
+                <div asp-validation-summary="All" class="text-danger mb-3"></div>
+                <input type="hidden" asp-for="UserProfile.Role" />
+                <input type="hidden" asp-for="UserProfile.PasswordHash" />
+                <input type="hidden" asp-for="UserProfile.ProfilePictureUrl" id="hiddenProfilePictureUrl" />
+
+                <div class="mb-3">
+                    <label asp-for="UserProfile.Username" class="form-label">Name</label>
+                    <input asp-for="UserProfile.Username" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="UserProfile.Email" class="form-label">Email</label>
+                    <input asp-for="UserProfile.Email" type="email" class="form-control" />
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="UserProfile.newPassword" class="form-label">New Password</label>
+                    <input asp-for="UserProfile.newPassword" type="password" class="form-control" />
+                </div>
+
+                <div class="d-flex mb-4 form-control border-0 bg-transparent p-0">
+                    <button type="submit" class="btn btn-primary flex-fill">Update Profile</button>
+                </div>
+            </form>
+
+            <h3 class="mb-3">My Games</h3>
+        </div>
+    </div>
+
+    <!-- Avatar upload modal -->
+    <div class="modal fade" id="avatarModal" tabindex="-1" aria-labelledby="avatarModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <form asp-page-handler="UploadAvatar" method="post" enctype="multipart/form-data" id="avatarForm">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="avatarModalLabel">Change profile picture</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <div class="text-center mb-3">
+                            <img id="previewAvatar" src="@(Model.UserProfile?.ProfilePictureUrl)"
+                                 alt="Preview"
+                                 class="rounded-circle img-thumbnail"
+                                 style="width:140px; height:140px; object-fit:cover;" />
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="avatarFile" class="form-label">Select an image (max 2MB)</label>
+                            <input class="form-control" type="file" id="avatarFile" name="avatarFile" accept="image/*" />
+                            <div class="form-text">PNG, JPG, GIF allowed.</div>
+                        </div>
+
+                        <div class="alert alert-danger d-none" id="avatarError"></div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                        <button type="button" class="btn btn-primary" id="applyAvatarBtn" data-bs-dismiss="modal">Apply</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        (function () {
+            const avatarFileInput = document.getElementById("avatarFile");
+            const profileAvatar = document.getElementById("profileAvatar");
+            const previewAvatar = document.getElementById("previewAvatar");
+            const hiddenProfilePictureUrl = document.getElementById("hiddenProfilePictureUrl");
+            const applyBtn = document.getElementById("applyAvatarBtn");
+            const cancelBtn = document.querySelector('[data-bs-dismiss="modal"].btn-secondary');
+            const originalAvatar = profileAvatar?.src ?? "";
+            let lastSelectedDataUrl = null; // stores current selected data url
+
+            // On file change: create preview and store the data-url in lastSelectedDataUrl
+            avatarFileInput?.addEventListener("change", function (event) {
+                const file = event.target.files[0];
+                if (!file) return;
+
+                
+                if (file.size > 100 * 1024 * 1024) {
+                    document.getElementById("avatarError").textContent = "File too large (max 10MB).";
+                    document.getElementById("avatarError").classList.remove("d-none");
+                    return;
+                }
+                document.getElementById("avatarError").classList.add("d-none");
+
+                const reader = new FileReader();
+                reader.onload = function (e) {
+                    const dataUrl = e.target.result;
+                    lastSelectedDataUrl = dataUrl;
+
+                    if (previewAvatar) previewAvatar.src = dataUrl;
+                    if (profileAvatar) profileAvatar.src = dataUrl;
+                };
+                reader.readAsDataURL(file);
+            });
+
+            applyBtn?.addEventListener("click", function () {
+                if (lastSelectedDataUrl) {
+                    hiddenProfilePictureUrl.value = lastSelectedDataUrl;
+                }
+            });
+
+            cancelBtn?.addEventListener("click", function () {
+                // restore visual avatars
+                if (profileAvatar) profileAvatar.src = originalAvatar;
+                if (previewAvatar) previewAvatar.src = originalAvatar;
+                if (avatarFileInput) avatarFileInput.value = "";
+                lastSelectedDataUrl = null;
+            });
+
+        })();
+    </script>
+}

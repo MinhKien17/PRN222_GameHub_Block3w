@@ -1,0 +1,230 @@
+﻿@page
+@model GameHub_DoanMinhKien_SE170383.Pages.Games.DetailsModel
+
+@{
+    ViewData["Title"] = Model.Game.Title ?? "Game Details";
+}
+
+<style>
+    .carousel {
+        border: 2px solid #2a475e;
+    }
+
+    .carousel-indicators button {
+        background-color: #66c0f4;
+    }
+
+    .carousel-indicators .active {
+        background-color: #1a9cff;
+    }
+
+    .card.bg-dark {
+        border: 1px solid #2a475e;
+    }
+
+    .card-title {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .btn-primary {
+        background-color: #66c0f4;
+        border-color: #66c0f4;
+    }
+
+        .btn-primary:hover {
+            background-color: #1a9cff;
+            border-color: #1a9cff;
+        }
+
+    /* Thumbnail styles */
+    .thumbnail-container {
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .thumbnail {
+        cursor: pointer;
+        transition: all 0.2s;
+    }
+
+        .thumbnail.active {
+            border: 2px solid #1a9cff;
+        }
+
+        .thumbnail img {
+            border: 1px solid #2a475e;
+        }
+
+        .thumbnail:hover img {
+            border-color: #66c0f4;
+        }
+
+    /* Play icon for video thumbnails */
+    .bi-play-circle-fill {
+        opacity: 0.8;
+    }
+
+    /* Responsive adjustments */
+    media (max-width: 768px) {
+        .carousel-item img, .carousel-item video
+
+    {
+        max-height: 300px;
+    }
+
+    .thumbnail img {
+        width: 80px;
+        height: 48px;
+    }
+</style>
+
+<div class="container my-5">
+    <div class="d-flex justify-content-start mb-3">
+        <a class="btn btn-secondary" asp-page="/Games/Index">Back to List</a>
+    </div>
+
+    <div class="row">
+        <!-- Left: Carousel for Images and Videos -->
+        <div class="col-lg-8 mb-4">
+            <div id="gameMediaCarousel" class="carousel slide bg-dark rounded shadow" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    @{
+                        var mediaItems = Model.Game.Images.Concat(Model.Game.Videos).ToList();
+                        for (int i = 0; i < mediaItems.Count; i++)
+                        {
+                            <button type="button" data-bs-target="#gameMediaCarousel" data-bs-slide-to="@i" class="@(i == 0 ? "active" : "")" aria-current="@(i == 0 ? "true" : "false")" aria-label="Slide @(i + 1)"></button>
+                        }
+                    }
+                </div>
+
+                <!-- Carousel Items -->
+                <div class="carousel-inner">
+                    @{
+                        int index = 0;
+                        foreach (var media in Model.Game.Images)
+                        {
+                            <div class="carousel-item @(index == 0 ? "active" : "")" data-media-id="@media.MediaId">
+                                <img src="@media.FilePath" class="d-block w-100" alt="@media.FileName" style="object-fit: cover; height: 550px;" />
+                            </div>
+                            index++;
+                        }
+                        foreach (var media in Model.Game.Videos)
+                        {
+                            <div class="carousel-item @(index == 0 ? "active" : "")" data-media-id="@media.MediaId">
+                                <video class="d-block w-100" style="max-height: 550px;" controls>
+                                    <source src="@media.FilePath" type="video/mp4" />
+                                    Your browser does not support the video tag.
+                                </video>
+                            </div>
+                            index++;
+                        }
+                    }
+                </div>
+
+                <!-- Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#gameMediaCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#gameMediaCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+            <!-- Thumbnails -->
+            <div class="d-flex flex-row flex-nowrap overflow-auto mt-3 thumbnail-container">
+                @{
+                    index = 0;
+                    foreach (var media in Model.Game.Images)
+                    {
+                        <div class="thumbnail @(index == 0 ? "active" : "")" data-bs-target="#gameMediaCarousel" data-bs-slide-to="@index">
+                            <img src="@media.FilePath" alt="@media.FileName" class="img-thumbnail" style="width: 100px; height: 60px; object-fit: cover;" />
+                        </div>
+                        index++;
+                    }
+                    foreach (var media in Model.Game.Videos)
+                    {
+                        <div class="thumbnail @(index == 0 ? "active" : "")" data-bs-target="#gameMediaCarousel" data-bs-slide-to="@index">
+                            <div class="position-relative">
+                                <img src="/img/video-thumbnail.jpg" alt="@media.FileName" class="img-thumbnail" style="width: 100px; height: 60px; object-fit: cover;" />
+                                <div class="position-absolute top-50 start-50 translate-middle">
+                                    <span class="bi bi-play-circle-fill text-white" style="font-size: 1.5rem;"></span>
+                                </div>
+                            </div>
+                        </div>
+                        index++;
+                    }
+                }
+            </div>
+        </div>
+
+        <!-- Right: Game Information -->
+        <div class="col-lg-4">
+            <div class="card shadow">
+                <div class="card-body">
+                    <h1 class="card-title">@Model.Game.Title</h1>
+                    <p class="card-text">
+                        <strong>Release Date:</strong> @(Model.Game.ReleaseDate?.ToString("MMMM dd, yyyy") ?? "TBA")
+                    </p>
+                    <p class="card-text">
+                        <strong>Price:</strong> @(Model.Game.Price.HasValue ? $"${Model.Game.Price.Value:F2}" : "Free")
+                    </p>
+                    <p class="card-text">
+                        <strong>Category:</strong> @Model.Game.CategoryName
+                    </p>
+                    <p class="card-text">
+                        <strong>Developer:</strong> @Model.Game.DeveloperName
+                    </p>
+                    @if (!string.IsNullOrEmpty(Model.Game.Website))
+                    {
+                        <p class="card-text">
+                            <strong>Website:</strong> <a href="@Model.Game.Website" target="_blank" class="text-info">@Model.Game.Website</a>
+                        </p>
+                    }
+                    @if (!string.IsNullOrEmpty(Model.Game.CategoryDescription))
+                    {
+                        <p class="card-text">
+                            <strong>Category Description:</strong> @Model.Game.CategoryDescription
+                        </p>
+                    }
+                    <div class="d-flex justify-content-center mt-3">
+                        <a asp-page="./Edit" asp-route-id="@Model.Game.GameId" class="btn btn-warning">Edit</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // Pause videos and sync thumbnails when switching carousel slides
+        document.addEventListener('DOMContentLoaded', function () {
+            const carousel = document.getElementById('gameMediaCarousel');
+            const thumbnails = document.querySelectorAll('.thumbnail');
+
+            carousel.addEventListener('slide.bs.carousel', function (e) {
+                // Pause all videos
+                const videos = document.querySelectorAll('.carousel-item video');
+                videos.forEach(video => video.pause());
+
+                // Update active thumbnail
+                thumbnails.forEach(thumb => thumb.classList.remove('active'));
+                thumbnails[e.to].classList.add('active');
+            });
+
+            // Click thumbnail to navigate carousel
+            thumbnails.forEach(thumb => {
+                thumb.addEventListener('click', function () {
+                    thumbnails.forEach(t => t.classList.remove('active'));
+                    this.classList.add('active');
+                });
+            });
+        });
+    </script>
+}
+
+

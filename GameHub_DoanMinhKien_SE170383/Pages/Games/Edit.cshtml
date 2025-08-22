@@ -1,0 +1,297 @@
+﻿@page
+@model GameHub_DoanMinhKien_SE170383.Pages.Games.EditModel
+
+@{
+    ViewData["Title"] = "Edit Game";
+}
+
+<style>
+    .card.bg-dark {
+        border: 1px solid #2a475e;
+    }
+
+    .card-title {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .form-control.bg-dark,
+    .form-select.bg-dark {
+        background-color: #2a475e;
+        color: #c7d5e0;
+    }
+
+    .form-control:focus,
+    .form-select:focus {
+        background-color: white;
+        color: black;
+        border-color: #66c0f4;
+        box-shadow: 0 0 0 0.2rem rgba(102, 192, 244, 0.25);
+    }
+
+    .btn-primary {
+        background-color: #66c0f4;
+        border-color: #66c0f4;
+    }
+
+        .btn-primary:hover {
+            background-color: #1a9cff;
+            border-color: #1a9cff;
+        }
+
+    .preview-container {
+        max-height: 200px;
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    /* Responsive adjustments */
+    media (max-width: 768px) {
+        .card-title
+
+    {
+        font-size: 1.5rem;
+    }
+
+    }
+</style>
+
+<div class="container my-5">
+    <form method="post" enctype="multipart/form-data">
+        <input type="hidden" asp-for="Game.GameId" />
+        <div class="row">
+            <!-- Left: Game Inputs -->
+            <div class="col-lg-4 mb-4">
+                <div class="card  shadow">
+                    <div class="card-body">
+                        <h1 class="card-title">Edit Game: @Model.Game.Title</h1>
+                        @if (!ModelState.IsValid)
+                        {
+                            <div asp-validation-summary="All" class="text-danger mb-3"></div>
+                        }
+                        <div class="mb-3">
+                            <label asp-for="Game.Title" class="form-label">Title</label>
+                            <input asp-for="Game.Title" class="form-control  border-secondary" required />
+                            <span asp-validation-for="Game.Title" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Game.Price" class="form-label">Price</label>
+                            <input asp-for="Game.Price" class="form-control  border-secondary" type="number" step="0.01" min="1" required/>
+                            <span asp-validation-for="Game.Price" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Game.ReleaseDate" class="form-label">Release Date</label>
+                            <input asp-for="Game.ReleaseDate" class="form-control  border-secondary" type="date" min="@DateTime.Today.ToString("yyyy-MM-dd")" required />
+                            <span asp-validation-for="Game.ReleaseDate" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Game.CategoryId" class="form-label">Category</label>
+                            <select asp-for="Game.CategoryId" class="form-select  border-secondary" asp-items="Model.Categories" required>
+                                <option value="">Select a category</option>
+                            </select>
+                            <span asp-validation-for="Game.CategoryId" class="text-danger"></span>
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Game.DeveloperId" class="form-label">Developer</label>
+                            <select asp-for="Game.DeveloperId" class="form-select  border-secondary" asp-items="Model.Developers" required>
+                                <option value="">Select a developer</option>
+                            </select>
+                            <span asp-validation-for="Game.DeveloperId" class="text-danger"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right: File Uploads and Media Removal -->
+            <div class="col-lg-4">
+                <div class="card  shadow">
+                    <div class="card-body">
+                        <h3 class="card-title">Manage Media</h3>
+                        <!-- Current Images -->
+                        <h5>Current Images</h5>
+                        <div class="d-flex flex-row flex-wrap gap-2 mb-3">
+                            @if (!Model.Game.Images.Any())
+                            {
+                                <p class="text-muted">No images available.</p>
+                            }
+                            @foreach (var media in Model.Game.Images)
+                            {
+                                <div class="position-relative">
+                                    <img src="@media.FilePath" alt="@media.FileName" class="img-thumbnail" style="width: 100px; height: 60px; object-fit: cover;" onerror="this.src='/images/fallback.jpg';" />
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="Game.RemoveMediaIds" value="@media.MediaId" class="form-check-input" id="remove-image-@media.MediaId" />
+                                        <label class="form-check-label" for="remove-image-@media.MediaId">Remove</label>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <!-- Current Videos -->
+                        <h5>Current Videos (Click to preview)</h5>
+                        <div class="d-flex flex-row flex-wrap gap-2 mb-3 current-videos-container">
+                            @if (!Model.Game.Videos.Any())
+                            {
+                                <p class="text-muted">No videos available.</p>
+                            }
+                            @foreach (var media in Model.Game.Videos)
+                            {
+                                <div class="position-relative current-video" data-video-src="@media.FilePath" data-video-type="@media.Type">
+                                    <video class="img-thumbnail" style="width: 100px; height: 60px; object-fit: cover; cursor: pointer;" muted>
+                                        <source src="@media.FilePath" type="@media.Type" />
+                                    </video>
+                                    <div class="position-absolute top-50 start-50 translate-middle">
+                                        <span class="bi bi-play-circle-fill text-white" style="font-size: 1.5rem;"></span>
+                                    </div>
+                                    <div class="form-check mt-1">
+                                        <input type="checkbox" name="Game.RemoveMediaIds" value="@media.MediaId" class="form-check-input" id="remove-video-@media.MediaId" />
+                                        <label class="form-check-label" for="remove-video-@media.MediaId">Remove</label>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                        <div class="d-flex flex-row flex-nowrap overflow-auto mt-3 preview-current-videos-container">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h3 class="card-title">Upload New Media</h3>
+                        <!-- New File Uploads -->
+                        <div class="mb-3">
+                            <label asp-for="Game.ImageFiles" class="form-label">Add Images</label>
+                            <input asp-for="Game.ImageFiles" type="file" multiple accept="image/*" class="form-control  border-secondary" />
+                            <div class="form-text">Select multiple images (PNG, JPG, GIF, max 50MB each).</div>
+                            <span asp-validation-for="Game.ImageFiles" class="text-danger"></span>
+                        </div>
+                        <div class="d-flex flex-row flex-nowrap overflow-auto mt-3 preview-img-container">
+                        </div>
+                        <div class="mb-3">
+                            <label asp-for="Game.VideoFiles" class="form-label">Add Videos</label>
+                            <input asp-for="Game.VideoFiles" type="file" multiple accept="video/*" class="form-control  border-secondary" />
+                            <div class="form-text">Select multiple videos (MP4, WebM, max 50MB each).</div>
+                            <span asp-validation-for="Game.VideoFiles" class="text-danger"></span>
+                        </div>
+                        <div class="d-flex flex-row flex-nowrap overflow-auto mt-3 preview-container">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Submit Button -->
+            <div class="col-12 d-flex justify-content-center mt-3">
+                <button type="submit" class="btn btn-primary">Update Game</button>
+            </div>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script>
+        // Client-side file validation and preview
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.querySelector('form');
+            const imageInput = document.querySelector('[name="Game.ImageFiles"]');
+            const videoInput = document.querySelector('[name="Game.VideoFiles"]');
+            const previewContainer = document.querySelector('.preview-container');
+            const previewImgContainer = document.querySelector('.preview-img-container');
+
+            const previewVideoContainer = document.querySelector('.preview-current-videos-container');
+            const currentVideos = document.querySelectorAll('.current-video');
+
+            // Function to create video preview
+            function createVideoPreview(src, type) {
+                previewVideoContainer.innerHTML = ''; // Clear previous previews
+                const previewVideo = document.createElement('video');
+                previewVideo.src = src;
+                previewVideo.type = type;
+                previewVideo.style.width = '400px';
+                previewVideo.style.height = '200px';
+                previewVideo.style.objectFit = 'cover';
+                previewVideo.controls = true;
+                previewVideo.onerror = function () {
+                    console.error('Error loading video:', src);
+                    previewVideo.src = '/videos/fallback.mp4'; // Fallback video
+                };
+                previewVideoContainer.appendChild(previewVideo);
+                previewVideo.play();
+            }
+
+            // Display first current video on page load
+            if (currentVideos.length > 0) {
+                const firstVideo = currentVideos[0];
+                const src = firstVideo.dataset.videoSrc;
+                const type = firstVideo.dataset.videoType;
+                createVideoPreview(src, type);
+            }
+
+            // Preview for current videos on click
+            currentVideos.forEach(videoDiv => {
+                videoDiv.addEventListener('click', function () {
+                    const src = this.dataset.videoSrc;
+                    const type = this.dataset.videoType;
+                    createVideoPreview(src, type);
+                });
+            });
+
+            // Preview images
+            imageInput.addEventListener('change', function (e) {
+                previewImgContainer.innerHTML = '';
+                for (let file of e.target.files) {
+                    const url = URL.createObjectURL(file);
+                    const img = document.createElement('img');
+                    img.src = url;
+                    img.style.width = '200px';
+                    img.style.height = '100px';
+                    img.style.objectFit = 'cover';
+                    img.style.marginRight = '10px';
+                    previewImgContainer.appendChild(img);
+                }
+            });
+
+            // Preview videos
+            videoInput.addEventListener('change', function (e) {
+                for (let file of e.target.files) {
+                    const url = URL.createObjectURL(file);
+                    const video = document.createElement('video');
+                    video.src = url;
+                    video.style.width = '400px';
+                    video.style.height = '250px';
+                    video.style.objectFit = 'cover';
+                    video.style.marginRight = '10px';
+                    video.controls = true;
+                    previewContainer.appendChild(video);
+                }
+            });
+
+            // File size validation
+            form.addEventListener('submit', function (e) {
+                const imageFiles = imageInput.files;
+                const videoFiles = videoInput.files;
+
+                console.log('Image Files:', imageFiles.length, Array.from(imageFiles).map(f => f.name));
+                console.log('Video Files:', videoFiles.length, Array.from(videoFiles).map(f => f.name));
+
+                for (let file of imageFiles) {
+                    if (file.size > 50 * 1024 * 1024) {
+                        alert(`Image ${file.name} exceeds 5MB.`);
+                        e.preventDefault();
+                        return;
+                    }
+                }
+
+                for (let file of videoFiles) {
+                    if (file.size > 50 * 1024 * 1024) {
+                        alert(`Video ${file.name} exceeds 50MB.`);
+                        e.preventDefault();
+                        return;
+                    }
+                }
+            });
+        });
+    </script>
+}
+
+

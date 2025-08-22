@@ -1,0 +1,42 @@
+﻿@page
+@model GameHub_DoanMinhKien_SE170383.Pages.GameCategory.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h1 class="mb-0">Game Category Manager</h1>
+    <a asp-page="Create" class="btn btn-success">Create New Category</a>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.GameCategory[0].CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GameCategory[0].Description)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.GameCategory) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.CategoryId" class="btn btn-warning">Edit</a>
+                <a asp-page="./Details" asp-route-id="@item.CategoryId" class="btn btn-info">Details</a>
+                <a asp-page="./Delete" asp-route-id="@item.CategoryId" class="btn btn-danger">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

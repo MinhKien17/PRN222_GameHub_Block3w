@@ -1,0 +1,57 @@
+﻿@page
+@model GameHub_DoanMinhKien_SE170383.Pages.Games.IndexModel2
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h1 class="mb-0">Game Products</h1>
+</div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].ReleaseDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].CategoryName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Game[0].DeveloperName)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Game) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ReleaseDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CategoryName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeveloperName)
+            </td>
+            <td>
+                <a asp-page="./Details2" asp-route-id="@item.GameId" class="btn btn-info">Details</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

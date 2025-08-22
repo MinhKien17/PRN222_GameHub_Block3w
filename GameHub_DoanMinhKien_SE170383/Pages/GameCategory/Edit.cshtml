@@ -1,0 +1,42 @@
+﻿@page
+@model GameHub_DoanMinhKien_SE170383.Pages.GameCategory.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>GameCategory</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="GameCategory.CategoryId" />
+            <div class="form-group">
+                
+                <label asp-for="GameCategory.CategoryName" class="control-label"></label>
+                <input asp-for="GameCategory.CategoryName" class="form-control" />
+                <span asp-validation-for="GameCategory.CategoryName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                
+                <label asp-for="GameCategory.Description" class="control-label"></label>
+                <input asp-for="GameCategory.Description" class="form-control" />
+                <span asp-validation-for="GameCategory.Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
