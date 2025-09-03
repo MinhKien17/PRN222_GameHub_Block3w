@@ -54,26 +54,6 @@ namespace GameHub_DoanMinhKien_SE170383.Pages.Games
 
         public async Task<IActionResult> OnPostAsync()
         {
-            // Log GameDTO properties
-            _logger.LogInformation("GameDTO: {@Game}", new
-            {
-                Game.GameId,
-                Game.Title,
-                Game.Price,
-                Game.ReleaseDate,
-                Game.CategoryId,
-                Game.CategoryName,
-                Game.CategoryDescription,
-                Game.DeveloperId,
-                Game.DeveloperName,
-                Game.Website,
-                ImageFilesCount = Game.ImageFiles?.Count ?? 0,
-                VideoFilesCount = Game.VideoFiles?.Count ?? 0,
-                ImageFileNames = Game.ImageFiles?.Select(f => f.FileName).ToList() ?? new List<string>(),
-                VideoFileNames = Game.VideoFiles?.Select(f => f.FileName).ToList() ?? new List<string>(),
-                RemoveMediaIds = Game.RemoveMediaIds
-            });
-
             if (!ModelState.IsValid)
             {
                 Categories = new SelectList(await _categoryRepository.GetAllCategoriesAsync(), "CategoryId", "CategoryName", Game.CategoryId);

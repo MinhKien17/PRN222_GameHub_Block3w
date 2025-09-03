@@ -134,9 +134,7 @@
                             @foreach (var media in Model.Game.Videos)
                             {
                                 <div class="position-relative current-video" data-video-src="@media.FilePath" data-video-type="@media.Type">
-                                    <video class="img-thumbnail" style="width: 100px; height: 60px; object-fit: cover; cursor: pointer;" muted>
-                                        <source src="@media.FilePath" type="@media.Type" />
-                                    </video>
+                                    <img src="/img/video-thumbnail.jpg" alt="@media.FileName" class="img-thumbnail" style="width: 100px; height: 60px; object-fit: cover;" />
                                     <div class="position-absolute top-50 start-50 translate-middle">
                                         <span class="bi bi-play-circle-fill text-white" style="font-size: 1.5rem;"></span>
                                     </div>
@@ -275,7 +273,7 @@
                 console.log('Video Files:', videoFiles.length, Array.from(videoFiles).map(f => f.name));
 
                 for (let file of imageFiles) {
-                    if (file.size > 50 * 1024 * 1024) {
+                    if (file.size > 104857600) {
                         alert(`Image ${file.name} exceeds 5MB.`);
                         e.preventDefault();
                         return;
@@ -283,7 +281,7 @@
                 }
 
                 for (let file of videoFiles) {
-                    if (file.size > 50 * 1024 * 1024) {
+                    if (file.size > 104857600) {
                         alert(`Video ${file.name} exceeds 50MB.`);
                         e.preventDefault();
                         return;

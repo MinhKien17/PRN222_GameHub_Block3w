@@ -127,7 +127,6 @@ public partial class GameHubContext : DbContext
             entity.HasIndex(e => new { e.PlayerId, e.GameId }, "UQ_PlayerLibrary_Player_Game").IsUnique();
 
             entity.Property(e => e.Notes).HasMaxLength(500);
-            entity.Property(e => e.PurchasedAt).HasDefaultValueSql("(sysutcdatetime())");
             entity.Property(e => e.Status)
                 .IsRequired()
                 .HasMaxLength(50)

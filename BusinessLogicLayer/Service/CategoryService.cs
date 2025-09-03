@@ -69,7 +69,7 @@ namespace BusinessLogicLayer.Service
 
         public async Task<CategoryDTO> UpdateCategory(CategoryDTO dto)
         {
-            var games = await _gameRepository.GetAllGamesAsync();
+            var (games, totalCount) = await _gameRepository.GetAllGamesAsync(null, 1,int.MaxValue);
             foreach (var check in games)
             {
                 if (check.CategoryId == dto.CategoryId)
@@ -95,7 +95,7 @@ namespace BusinessLogicLayer.Service
 
         public async Task DeleteCategory(int categoryId)
         {
-            var games = await _gameRepository.GetAllGamesAsync();
+            var (games, totalCount) = await _gameRepository.GetAllGamesAsync(null, 1, int.MaxValue);
             if (games.Any(g => g.CategoryId == categoryId))
             {
                 throw new InvalidOperationException("Cannot delete category as it is associated with existing games.");

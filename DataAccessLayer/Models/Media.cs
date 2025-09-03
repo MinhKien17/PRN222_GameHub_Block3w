@@ -11,7 +11,7 @@ public partial class Media
 
     public byte[]? Data { get; set; }
 
-    public string Type { get; set; }
+    public string? Type { get; set; }
 
     public DateTime UploadedAt { get; set; }
 
@@ -23,5 +23,5 @@ public partial class Media
 
     public string? FilePath { get; set; }
 
-    public virtual Game Game { get; set; }
+    public virtual Game? Game { get; set; }
 }

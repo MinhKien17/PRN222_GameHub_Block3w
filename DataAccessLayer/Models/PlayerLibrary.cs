@@ -11,8 +11,6 @@ public partial class PlayerLibrary
 
     public int GameId { get; set; }
 
-    public DateTime PurchasedAt { get; set; }
-
     public string Status { get; set; }
 
     public int TotalPlayMinutes { get; set; }

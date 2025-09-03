@@ -36,6 +36,7 @@ namespace BusinessLogicLayer.DTO
         [Required(ErrorMessage = "Password is required")]
         public string Password { get; set; }
     }
+
     public class UserDTO
     {
         public int? UserId { get; set; }

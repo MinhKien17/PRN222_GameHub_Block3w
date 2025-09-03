@@ -8,7 +8,6 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DataAccessLayer.Repository
 {
-
     public interface IPlayerRepository
     {
         Task<Player?> GetPlayerByUserId(int userId);

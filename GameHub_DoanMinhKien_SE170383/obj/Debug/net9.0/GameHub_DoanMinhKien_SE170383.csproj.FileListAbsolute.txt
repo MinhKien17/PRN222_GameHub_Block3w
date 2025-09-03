@@ -1,3 +1,12 @@
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.csproj.AssemblyReference.cache
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.GeneratedMSBuildEditorConfig.editorconfig
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.AssemblyInfoInputs.cache
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.AssemblyInfo.cs
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.csproj.CoreCompileInputs.cache
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.MvcApplicationPartsAssemblyInfo.cache
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.RazorAssemblyInfo.cache
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.RazorAssemblyInfo.cs
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.sourcelink.json
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\appsettings.Development.json
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\appsettings.json
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\GameHub_DoanMinhKien_SE170383.staticwebassets.runtime.json
@@ -92,6 +101,8 @@ D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\System.Runtime.Caching.dll
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\System.Security.Cryptography.ProtectedData.dll
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\System.Text.Json.dll
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\X.PagedList.dll
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\X.PagedList.Mvc.Core.dll
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\af\Humanizer.resources.dll
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\ar\Humanizer.resources.dll
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\az\Humanizer.resources.dll
@@ -255,14 +266,6 @@ D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\DataAccessLayer.dll
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\BusinessLogicLayer.pdb
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\bin\Debug\net9.0\DataAccessLayer.pdb
-D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.csproj.AssemblyReference.cache
-D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.GeneratedMSBuildEditorConfig.editorconfig
-D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.AssemblyInfoInputs.cache
-D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.AssemblyInfo.cs
-D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.csproj.CoreCompileInputs.cache
-D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.MvcApplicationPartsAssemblyInfo.cache
-D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.RazorAssemblyInfo.cache
-D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\GameHub_DoanMinhKien_SE170383.RazorAssemblyInfo.cs
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\scopedcss\Pages\Shared\_Layout.cshtml.rz.scp.css
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\scopedcss\bundle\GameHub_DoanMinhKien_SE170383.styles.css
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\GameHub_DoanMinhKien_SE170383\obj\Debug\net9.0\scopedcss\projectbundle\GameHub_DoanMinhKien_SE170383.bundle.scp.css

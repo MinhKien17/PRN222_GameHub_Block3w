@@ -1188,59 +1188,41 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery\LICENSE.txt'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>GameHub_DoanMinhKien_SE170383</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GameHub_DoanMinhKien_SE170383</BasePath>
-      <RelativePath>uploads/00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg</RelativePath>
+      <RelativePath>uploads/02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>5xavgh96jc</Fingerprint>
-      <Integrity>CU3FYA7+R1Vj+2o5yKhWycoKA0rlYBXW105A9P7uYjs=</Integrity>
+      <Fingerprint>h9mrh7m7pa</Fingerprint>
+      <Integrity>iwl+ak5FqsKS+zPGpYdq5xPPMf/zxer4LGgPS3ZnBss=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg'))">
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png'))">
       <SourceType>Package</SourceType>
       <SourceId>GameHub_DoanMinhKien_SE170383</SourceId>
       <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
       <BasePath>_content/GameHub_DoanMinhKien_SE170383</BasePath>
-      <RelativePath>uploads/2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg</RelativePath>
+      <RelativePath>uploads/50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png</RelativePath>
       <AssetKind>All</AssetKind>
       <AssetMode>All</AssetMode>
       <AssetRole>Primary</AssetRole>
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>gieqohk07p</Fingerprint>
-      <Integrity>+AenhxhLbMoQtRkRs1eJGgyoqfNtBF27Mo9gpFjpi5s=</Integrity>
+      <Fingerprint>rp2uutlzwr</Fingerprint>
+      <Integrity>P+slpplPmf4AegYcqPSa6PBnXVTD2idIpicvv9TBKlA=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4'))">
-      <SourceType>Package</SourceType>
-      <SourceId>GameHub_DoanMinhKien_SE170383</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/GameHub_DoanMinhKien_SE170383</BasePath>
-      <RelativePath>uploads/3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>2kvt7l3zg4</Fingerprint>
-      <Integrity>AhAo0NFM+QtnkMFf0+wQG9zGt48nlyKS/8P1Vh8IUl4=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4'))</OriginalItemSpec>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\57bc23e1-a0f6-4fd5-9ece-8fe22770b985_Faker4K.jpg'))">
       <SourceType>Package</SourceType>
@@ -1260,6 +1242,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\57bc23e1-a0f6-4fd5-9ece-8fe22770b985_Faker4K.jpg'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png'))">
+      <SourceType>Package</SourceType>
+      <SourceId>GameHub_DoanMinhKien_SE170383</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GameHub_DoanMinhKien_SE170383</BasePath>
+      <RelativePath>uploads/5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>htqirjcayh</Fingerprint>
+      <Integrity>u0CrRBwRNUO4ZEbqkKIlfUAFlXrYTx2A3PrSEucKqlc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6050667f-b6ca-4230-8303-072c3cacf178_Gumayusi4K.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>GameHub_DoanMinhKien_SE170383</SourceId>
@@ -1277,6 +1277,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6050667f-b6ca-4230-8303-072c3cacf178_Gumayusi4K.jpg'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>GameHub_DoanMinhKien_SE170383</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GameHub_DoanMinhKien_SE170383</BasePath>
+      <RelativePath>uploads/6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>bvnao3mkjk</Fingerprint>
+      <Integrity>qQR2356s8QW+3rwbSDp5LSukPM6aFT6S1elHb4bmMFs=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.mp4'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\77a21e12-5ecc-477d-b929-4da771e9e036_Black Myth： Zhong Kui - Official Reveal Trailer ｜ gamescom 2025.mp4'))">
       <SourceType>Package</SourceType>
@@ -1314,24 +1332,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\93675256-3c6c-441c-9f79-b2bf8ee129b5_Windstorm： The Legend of Khiimori - Official Early Access Release Date Trailer.mp4'))</OriginalItemSpec>
     </StaticWebAsset>
-    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg'))">
-      <SourceType>Package</SourceType>
-      <SourceId>GameHub_DoanMinhKien_SE170383</SourceId>
-      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
-      <BasePath>_content/GameHub_DoanMinhKien_SE170383</BasePath>
-      <RelativePath>uploads/a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg</RelativePath>
-      <AssetKind>All</AssetKind>
-      <AssetMode>All</AssetMode>
-      <AssetRole>Primary</AssetRole>
-      <RelatedAsset></RelatedAsset>
-      <AssetTraitName></AssetTraitName>
-      <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>g7q0tbmct1</Fingerprint>
-      <Integrity>VNJLP7Ma0Z6Cgu5/s7hM46lcrRwl4D7KPUV1FrLeHvw=</Integrity>
-      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg'))</OriginalItemSpec>
-    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\af3a4197-ec2f-4551-bee6-f8b1b883da79_Faker4K.jpg'))">
       <SourceType>Package</SourceType>
       <SourceId>GameHub_DoanMinhKien_SE170383</SourceId>
@@ -1367,6 +1367,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\b0f6eac0-4928-4ca4-804b-de0a141b5f73_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4'))">
+      <SourceType>Package</SourceType>
+      <SourceId>GameHub_DoanMinhKien_SE170383</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/GameHub_DoanMinhKien_SE170383</BasePath>
+      <RelativePath>uploads/ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>pd3qp61kxq</Fingerprint>
+      <Integrity>Y8s3yNen7Xn+AW6J1kpwb7yUBtVEIpWH5kL0iKEVLsM=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\df515910-98ac-4d31-891d-797f4b7847f6_Gumayusi4K.jpg'))">
       <SourceType>Package</SourceType>

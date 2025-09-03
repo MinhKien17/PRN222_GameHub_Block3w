@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|d:\\su25\\prn222\\rework\\gamehub\\gamehub_doanminhkien_se170383\\gamehub_doanminhkien_se170383\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|solutionrelative:gamehub_doanminhkien_se170383\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|d:\\su25\\prn222\\rework\\gamehub\\gamehub_doanminhkien_se170383\\gamehub_doanminhkien_se170383\\pages\\games\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|solutionrelative:gamehub_doanminhkien_se170383\\pages\\games\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|d:\\su25\\prn222\\rework\\gamehub\\gamehub_doanminhkien_se170383\\gamehub_doanminhkien_se170383\\pages\\gamecategory\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|solutionrelative:gamehub_doanminhkien_se170383\\pages\\gamecategory\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|d:\\su25\\prn222\\rework\\gamehub\\gamehub_doanminhkien_se170383\\gamehub_doanminhkien_se170383\\pages\\games\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|solutionrelative:gamehub_doanminhkien_se170383\\pages\\games\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|d:\\su25\\prn222\\rework\\gamehub\\gamehub_doanminhkien_se170383\\gamehub_doanminhkien_se170383\\pages\\gamecategory\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|solutionrelative:gamehub_doanminhkien_se170383\\pages\\gamecategory\\edit.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D67D178-7D3F-4192-9EE5-9E46388A5FB6}|DataAccessLayer\\DataAccessLayer.csproj|d:\\su25\\prn222\\rework\\gamehub\\gamehub_doanminhkien_se170383\\dataaccesslayer\\repository\\gamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D67D178-7D3F-4192-9EE5-9E46388A5FB6}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repository\\gamerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A39BD877-3ACB-4264-B699-F7E97D644DD0}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\su25\\prn222\\rework\\gamehub\\gamehub_doanminhkien_se170383\\businesslogiclayer\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A39BD877-3ACB-4264-B699-F7E97D644DD0}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A39BD877-3ACB-4264-B699-F7E97D644DD0}|BusinessLogicLayer\\BusinessLogicLayer.csproj|d:\\su25\\prn222\\rework\\gamehub\\gamehub_doanminhkien_se170383\\businesslogiclayer\\service\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A39BD877-3ACB-4264-B699-F7E97D644DD0}|BusinessLogicLayer\\BusinessLogicLayer.csproj|solutionrelative:businesslogiclayer\\service\\gameservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|d:\\su25\\prn222\\rework\\gamehub\\gamehub_doanminhkien_se170383\\gamehub_doanminhkien_se170383\\pages\\gamecategory\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|solutionrelative:gamehub_doanminhkien_se170383\\pages\\gamecategory\\delete.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|d:\\su25\\prn222\\rework\\gamehub\\gamehub_doanminhkien_se170383\\gamehub_doanminhkien_se170383\\pages\\games\\index2.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AC8ED651-DDF8-41BD-95AB-1C442F8A60B6}|GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383.csproj|solutionrelative:gamehub_doanminhkien_se170383\\pages\\games\\index2.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 30,
           "Children": [
             {
               "$type": "Bookmark",
@@ -138,65 +138,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\Index.cshtml",
-              "RelativeDocumentMoniker": "GameHub_DoanMinhKien_SE170383\\Pages\\Index.cshtml",
-              "ToolTip": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\Index.cshtml",
-              "RelativeToolTip": "GameHub_DoanMinhKien_SE170383\\Pages\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxIAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T11:01:54.698Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryService.cs",
-              "DocumentMoniker": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\BusinessLogicLayer\\Service\\CategoryService.cs",
-              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\CategoryService.cs",
-              "ToolTip": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\BusinessLogicLayer\\Service\\CategoryService.cs",
-              "RelativeToolTip": "BusinessLogicLayer\\Service\\CategoryService.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAcwGUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T08:36:52.443Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.cshtml.cs",
-              "DocumentMoniker": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\GameCategory\\Edit.cshtml.cs",
-              "RelativeDocumentMoniker": "GameHub_DoanMinhKien_SE170383\\Pages\\GameCategory\\Edit.cshtml.cs",
-              "ToolTip": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\GameCategory\\Edit.cshtml.cs",
-              "RelativeToolTip": "GameHub_DoanMinhKien_SE170383\\Pages\\GameCategory\\Edit.cshtml.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAADwv0MAAAANAAAAAAAAAA==",
+              "Title": "GameRepository.cs",
+              "DocumentMoniker": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\DataAccessLayer\\Repository\\GameRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repository\\GameRepository.cs",
+              "ToolTip": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\DataAccessLayer\\Repository\\GameRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repository\\GameRepository.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA9wDEAAACMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T08:36:32.864Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\GameCategory\\Delete.cshtml",
-              "RelativeDocumentMoniker": "GameHub_DoanMinhKien_SE170383\\Pages\\GameCategory\\Delete.cshtml",
-              "ToolTip": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\GameCategory\\Delete.cshtml",
-              "RelativeToolTip": "GameHub_DoanMinhKien_SE170383\\Pages\\GameCategory\\Delete.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAB0AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-08-21T08:24:12.123Z",
+              "WhenOpened": "2025-09-03T08:17:01.405Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Delete.cshtml.cs",
-              "DocumentMoniker": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\GameCategory\\Delete.cshtml.cs",
-              "RelativeDocumentMoniker": "GameHub_DoanMinhKien_SE170383\\Pages\\GameCategory\\Delete.cshtml.cs",
-              "ToolTip": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\GameCategory\\Delete.cshtml.cs",
-              "RelativeToolTip": "GameHub_DoanMinhKien_SE170383\\Pages\\GameCategory\\Delete.cshtml.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAQwD8AAAA5AAAAAAAAAA==",
+              "Title": "Index2.cshtml.cs",
+              "DocumentMoniker": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\Games\\Index2.cshtml.cs",
+              "RelativeDocumentMoniker": "GameHub_DoanMinhKien_SE170383\\Pages\\Games\\Index2.cshtml.cs",
+              "ToolTip": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\Games\\Index2.cshtml.cs",
+              "RelativeToolTip": "GameHub_DoanMinhKien_SE170383\\Pages\\Games\\Index2.cshtml.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAEwBcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-21T08:14:51.479Z"
+              "WhenOpened": "2025-09-03T08:05:09.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameService.cs",
+              "DocumentMoniker": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\BusinessLogicLayer\\Service\\GameService.cs",
+              "RelativeDocumentMoniker": "BusinessLogicLayer\\Service\\GameService.cs",
+              "ToolTip": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\BusinessLogicLayer\\Service\\GameService.cs",
+              "RelativeToolTip": "BusinessLogicLayer\\Service\\GameService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T08:02:33.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\Games\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "GameHub_DoanMinhKien_SE170383\\Pages\\Games\\Index.cshtml.cs",
+              "ToolTip": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\Games\\Index.cshtml.cs",
+              "RelativeToolTip": "GameHub_DoanMinhKien_SE170383\\Pages\\Games\\Index.cshtml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-03T07:53:22.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\Games\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameHub_DoanMinhKien_SE170383\\Pages\\Games\\Index.cshtml",
+              "ToolTip": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\Pages\\Games\\Index.cshtml*",
+              "RelativeToolTip": "GameHub_DoanMinhKien_SE170383\\Pages\\Games\\Index.cshtml*",
+              "ViewState": "AgIAADYAAAAAAAAAAAAwwEkAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-03T07:25:27.768Z",
+              "EditorCaption": ""
             }
           ]
         }

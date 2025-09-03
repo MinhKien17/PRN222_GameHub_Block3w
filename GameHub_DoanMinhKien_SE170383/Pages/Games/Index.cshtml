@@ -1,5 +1,7 @@
 ﻿@page
 @model GameHub_DoanMinhKien_SE170383.Pages.Games.IndexModel
+@using X.PagedList
+@using X.PagedList.Mvc.Core
 
 @{
     ViewData["Title"] = "Index";
@@ -10,51 +12,79 @@
     <a asp-page="Create" class="btn btn-success">Create New Game</a>
 </div>
 
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Game[0].Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Game[0].Price)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Game[0].ReleaseDate)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Game[0].CategoryName)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Game[0].DeveloperName)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model.Game) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Price)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ReleaseDate)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CategoryName)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DeveloperName)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.GameId" class="btn btn-warning">Edit</a>
-                <a asp-page="./Details" asp-route-id="@item.GameId" class="btn btn-info">Details</a>
-                <a asp-page="./Delete" asp-route-id="@item.GameId" class="btn btn-danger">Delete</a>
-            </td>
-        </tr>
+<form method="get" class="mb-4">
+    <div class="input-group">
+        <input type="text" name="searchString" class="form-control" placeholder="Search games..." value="@Model.searchString" />
+        <button type="submit" class="btn btn-primary">Search</button>
+    </div>
+</form>
+
+@if(Model.Game != null && Model.Game.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Game[0].Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Game[0].Price)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Game[0].ReleaseDate)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Game[0].CategoryName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Game[0].DeveloperName)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Game)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Price)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ReleaseDate)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CategoryName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DeveloperName)
+                    </td>
+                    <td>
+                        <a asp-page="./Edit" asp-route-id="@item.GameId" class="btn btn-warning">Edit</a>
+                        <a asp-page="./Details" asp-route-id="@item.GameId" class="btn btn-info">Details</a>
+                        <a asp-page="./Delete" asp-route-id="@item.GameId" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <nav aria-label="Page navigation" class="d-flex justify-content-end">
+        @Html.PagedListPager(Model.Game, page => Url.Page("Index", new { pageNumber = page, pageSize = Model.Game.PageSize, searchString = Model.searchString }),
+                         new PagedListRenderOptions
+    {
+        LiElementClasses = new[] { "page-item" },
+        PageClasses = new[] { "page-link" },
+        DisplayLinkToPreviousPage = PagedListDisplayMode.Always,
+        DisplayLinkToNextPage = PagedListDisplayMode.Always
+    })
+    </nav>
 }
-    </tbody>
-</table>
+else
+{
+    <p>No games found.</p>
+}
+
+

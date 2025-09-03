@@ -1,12 +1,13 @@
-D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.deps.json
-D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.runtimeconfig.json
-D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.dll
-D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.pdb
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.AssemblyReference.cache
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfoInputs.cache
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.AssemblyInfo.cs
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.sourcelink.json
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.deps.json
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.runtimeconfig.json
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.dll
+D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\bin\Debug\net9.0\DataAccessLayer.pdb
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.dll
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\obj\Debug\net9.0\refint\DataAccessLayer.dll
 D:\SU25\PRN222\ReWork\GameHub\GameHub_DoanMinhKien_SE170383\DataAccessLayer\obj\Debug\net9.0\DataAccessLayer.pdb

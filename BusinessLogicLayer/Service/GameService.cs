@@ -6,12 +6,14 @@ using System.Threading.Tasks;
 using BusinessLogicLayer.DTO;
 using DataAccessLayer.Models;
 using DataAccessLayer.Repository;
+using X.PagedList;
+using X.PagedList.Extensions;
 
 namespace BusinessLogicLayer.Service
 {
     public interface IGameService
     {
-        Task<List<GameDTO>> GetAllGamesAsync();
+        Task<StaticPagedList<GameDTO>> GetAllGamesAsync(string? searchString, int pageNumber = 1, int pageSize = 10);
         Task<GameDTO> GetGameById(int gameId);
         Task<GameDTO> CreateGameAsync(GameDTO dto);
         Task<GameDTO> UpdateGameAsync(int gameId, GameDTO dto);
@@ -36,36 +38,28 @@ namespace BusinessLogicLayer.Service
             _categoryRepository = categoryRepository;
         }
 
-        public async Task<List<GameDTO>> GetAllGamesAsync()
+        public async Task<StaticPagedList<GameDTO>> GetAllGamesAsync(string? searchString, int pageNumber, int pageSize)
         {
-            // Fetch all games, categories, developers, and media in bulk
-            var games = await _gameRepository.GetAllGamesAsync();
-            var categories = await _categoryRepository.GetAllCategoriesAsync();
-            var developers = await _developerRepository.GetAllAsync();
-            var allMedia = await _mediaRepository.GetAllAsync(); // Assumes method to get all media
+            // Fetch paginated games from repository
+            var (games, totalCounts) = await _gameRepository.GetAllGamesAsync(searchString, pageNumber, pageSize);
 
+            // Map to GameDTO
             var gameDTOs = new List<GameDTO>();
-
             foreach (var game in games)
             {
-                var category = categories.FirstOrDefault(c => c.CategoryId == game.CategoryId);
-                var developer = developers.FirstOrDefault(d => d.DeveloperId == game.DeveloperId);
-
-                var gameMedia = allMedia.Where(m => m.GameId == game.GameId).ToList();
                 var gameDTO = new GameDTO
                 {
                     GameId = game.GameId,
                     Title = game.Title,
                     Price = game.Price,
                     ReleaseDate = game.ReleaseDate,
-                    CategoryId = (int)game.CategoryId,
-                    CategoryName = category.CategoryName,
-                    CategoryDescription = category.Description,
-                    DeveloperId = (int)game.DeveloperId,
-                    DeveloperName = developer.DeveloperName,
-                    Website = developer.Website,
-                    Images = gameMedia
-                        .Where(m => m.Type.StartsWith("image"))
+                    CategoryId = game.CategoryId ?? 0,
+                    CategoryName = game.Category?.CategoryName ?? "N/A",
+                    CategoryDescription = game.Category?.Description ?? "N/A",
+                    DeveloperId = game.DeveloperId ?? 0,
+                    DeveloperName = game.Developer?.DeveloperName ?? "N/A",
+                    Website = game.Developer?.Website ?? "N/A",
+                    Images = (await _mediaRepository.GetMediaByGameIdAsync(game.GameId, "Image"))
                         .Select(m => new MediaDTO
                         {
                             MediaId = m.MediaId,
@@ -73,21 +67,19 @@ namespace BusinessLogicLayer.Service
                             FileName = m.FileName,
                             Type = m.Type
                         }).ToList(),
-                    Videos = gameMedia
-                        .Where(m => m.Type.StartsWith("video"))
+                    Videos = (await _mediaRepository.GetMediaByGameIdAsync(game.GameId, "Video"))
                         .Select(m => new MediaDTO
                         {
                             MediaId = m.MediaId,
-                            FilePath = m.FilePath, // or $"/api/media/{m.MediaId}" for database
+                            FilePath = m.FilePath,
                             FileName = m.FileName,
                             Type = m.Type
                         }).ToList()
                 };
-
                 gameDTOs.Add(gameDTO);
             }
 
-            return gameDTOs;
+            return new StaticPagedList<GameDTO>(gameDTOs, pageNumber, pageSize, totalCounts);
         }
 
         public async Task<GameDTO> GetGameById(int gameId)

@@ -120,6 +120,7 @@ namespace BusinessLogicLayer.Service
             }
             user.Email = userDTO.Email;
             user.Role = userDTO.Role;
+            
 
             var updatedUser = await _userRepository.UpdateAsync(user, userDTO.newPassword);
 
@@ -129,6 +130,8 @@ namespace BusinessLogicLayer.Service
                 throw new KeyNotFoundException("Player not found for this user");
             }
             player.Username = userDTO.Username;
+            player.LastLogin = userDTO.LastLogin;
+
             await _playerRepository.UpdatePlayerAsync(player);
 
             byte[]? imageBytes = null;

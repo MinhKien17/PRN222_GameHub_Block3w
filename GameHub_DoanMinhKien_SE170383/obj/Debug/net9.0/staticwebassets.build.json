@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "34dxVgrP6P7Q8NhVRVDjBZBaRqGrzjgSv11Wp7IqQaA=",
+  "Hash": "WtEgDLi+IYp9QzAh6inA5OCuP88i8ejLf5c/9e/k0sg=",
   "Source": "GameHub_DoanMinhKien_SE170383",
   "BasePath": "_content/GameHub_DoanMinhKien_SE170383",
   "Mode": "Default",
@@ -2768,12 +2768,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg",
+      "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg",
       "SourceId": "GameHub_DoanMinhKien_SE170383",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\",
       "BasePath": "_content/GameHub_DoanMinhKien_SE170383",
-      "RelativePath": "uploads/00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K#[.{fingerprint}]?.jpg",
+      "RelativePath": "uploads/02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772#[.{fingerprint}]?.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2782,19 +2782,19 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "5xavgh96jc",
-      "Integrity": "CU3FYA7+R1Vj+2o5yKhWycoKA0rlYBXW105A9P7uYjs=",
+      "Fingerprint": "h9mrh7m7pa",
+      "Integrity": "iwl+ak5FqsKS+zPGpYdq5xPPMf/zxer4LGgPS3ZnBss=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg"
     },
     {
-      "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg",
+      "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png",
       "SourceId": "GameHub_DoanMinhKien_SE170383",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\",
       "BasePath": "_content/GameHub_DoanMinhKien_SE170383",
-      "RelativePath": "uploads/2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K#[.{fingerprint}]?.jpg",
+      "RelativePath": "uploads/50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338#[.{fingerprint}]?.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2803,32 +2803,11 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gieqohk07p",
-      "Integrity": "+AenhxhLbMoQtRkRs1eJGgyoqfNtBF27Mo9gpFjpi5s=",
+      "Fingerprint": "rp2uutlzwr",
+      "Integrity": "P+slpplPmf4AegYcqPSa6PBnXVTD2idIpicvv9TBKlA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg"
-    },
-    {
-      "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4",
-      "SourceId": "GameHub_DoanMinhKien_SE170383",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\",
-      "BasePath": "_content/GameHub_DoanMinhKien_SE170383",
-      "RelativePath": "uploads/3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer]#[.{fingerprint}]?.mp4",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "2kvt7l3zg4",
-      "Integrity": "AhAo0NFM+QtnkMFf0+wQG9zGt48nlyKS/8P1Vh8IUl4=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4"
+      "OriginalItemSpec": "wwwroot\\uploads\\50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png"
     },
     {
       "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\57bc23e1-a0f6-4fd5-9ece-8fe22770b985_Faker4K.jpg",
@@ -2852,6 +2831,27 @@
       "OriginalItemSpec": "wwwroot\\uploads\\57bc23e1-a0f6-4fd5-9ece-8fe22770b985_Faker4K.jpg"
     },
     {
+      "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png",
+      "SourceId": "GameHub_DoanMinhKien_SE170383",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\",
+      "BasePath": "_content/GameHub_DoanMinhKien_SE170383",
+      "RelativePath": "uploads/5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "htqirjcayh",
+      "Integrity": "u0CrRBwRNUO4ZEbqkKIlfUAFlXrYTx2A3PrSEucKqlc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png"
+    },
+    {
       "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\6050667f-b6ca-4230-8303-072c3cacf178_Gumayusi4K.jpg",
       "SourceId": "GameHub_DoanMinhKien_SE170383",
       "SourceType": "Discovered",
@@ -2871,6 +2871,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\6050667f-b6ca-4230-8303-072c3cacf178_Gumayusi4K.jpg"
+    },
+    {
+      "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.mp4",
+      "SourceId": "GameHub_DoanMinhKien_SE170383",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\",
+      "BasePath": "_content/GameHub_DoanMinhKien_SE170383",
+      "RelativePath": "uploads/6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "bvnao3mkjk",
+      "Integrity": "qQR2356s8QW+3rwbSDp5LSukPM6aFT6S1elHb4bmMFs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.mp4"
     },
     {
       "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\77a21e12-5ecc-477d-b929-4da771e9e036_Black Myth： Zhong Kui - Official Reveal Trailer ｜ gamescom 2025.mp4",
@@ -2915,27 +2936,6 @@
       "OriginalItemSpec": "wwwroot\\uploads\\93675256-3c6c-441c-9f79-b2bf8ee129b5_Windstorm： The Legend of Khiimori - Official Early Access Release Date Trailer.mp4"
     },
     {
-      "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg",
-      "SourceId": "GameHub_DoanMinhKien_SE170383",
-      "SourceType": "Discovered",
-      "ContentRoot": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\",
-      "BasePath": "_content/GameHub_DoanMinhKien_SE170383",
-      "RelativePath": "uploads/a2710717-a4c1-444f-902a-df2f44c7eaab_Azir#[.{fingerprint}]?.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "Fingerprint": "g7q0tbmct1",
-      "Integrity": "VNJLP7Ma0Z6Cgu5/s7hM46lcrRwl4D7KPUV1FrLeHvw=",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg"
-    },
-    {
       "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\af3a4197-ec2f-4551-bee6-f8b1b883da79_Faker4K.jpg",
       "SourceId": "GameHub_DoanMinhKien_SE170383",
       "SourceType": "Discovered",
@@ -2976,6 +2976,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\b0f6eac0-4928-4ca4-804b-de0a141b5f73_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4"
+    },
+    {
+      "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4",
+      "SourceId": "GameHub_DoanMinhKien_SE170383",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\",
+      "BasePath": "_content/GameHub_DoanMinhKien_SE170383",
+      "RelativePath": "uploads/ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "pd3qp61kxq",
+      "Integrity": "Y8s3yNen7Xn+AW6J1kpwb7yUBtVEIpWH5kL0iKEVLsM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4"
     },
     {
       "Identity": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\df515910-98ac-4d31-891d-797f4b7847f6_Gumayusi4K.jpg",
@@ -3621,7 +3642,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:34:47 GMT"
+          "Value": "Wed, 03 Sep 2025 07:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3674,7 +3695,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:34:47 GMT"
+          "Value": "Wed, 03 Sep 2025 07:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3711,7 +3732,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:34:47 GMT"
+          "Value": "Wed, 03 Sep 2025 07:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3758,7 +3779,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:34:47 GMT"
+          "Value": "Wed, 03 Sep 2025 07:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3819,7 +3840,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:34:47 GMT"
+          "Value": "Wed, 03 Sep 2025 07:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3864,7 +3885,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:34:47 GMT"
+          "Value": "Wed, 03 Sep 2025 07:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3919,7 +3940,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:34:47 GMT"
+          "Value": "Wed, 03 Sep 2025 07:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3980,7 +4001,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:34:47 GMT"
+          "Value": "Wed, 03 Sep 2025 07:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4025,7 +4046,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:34:47 GMT"
+          "Value": "Wed, 03 Sep 2025 07:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4080,7 +4101,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:34:47 GMT"
+          "Value": "Wed, 03 Sep 2025 07:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4133,7 +4154,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:34:47 GMT"
+          "Value": "Wed, 03 Sep 2025 07:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4170,7 +4191,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:34:47 GMT"
+          "Value": "Wed, 03 Sep 2025 07:51:55 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22319,8 +22340,8 @@
       ]
     },
     {
-      "Route": "uploads/00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.5xavgh96jc.jpg",
-      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg",
+      "Route": "uploads/02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.h9mrh7m7pa.jpg",
+      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22329,7 +22350,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4508212"
+          "Value": "1112381"
         },
         {
           "Name": "Content-Type",
@@ -22337,11 +22358,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CU3FYA7+R1Vj+2o5yKhWycoKA0rlYBXW105A9P7uYjs=\""
+          "Value": "\"iwl+ak5FqsKS+zPGpYdq5xPPMf/zxer4LGgPS3ZnBss=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:56:36 GMT"
+          "Value": "Mon, 25 Aug 2025 07:28:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22351,21 +22372,21 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "5xavgh96jc"
+          "Value": "h9mrh7m7pa"
         },
         {
           "Name": "label",
-          "Value": "uploads/00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg"
+          "Value": "uploads/02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CU3FYA7+R1Vj+2o5yKhWycoKA0rlYBXW105A9P7uYjs="
+          "Value": "sha256-iwl+ak5FqsKS+zPGpYdq5xPPMf/zxer4LGgPS3ZnBss="
         }
       ]
     },
     {
-      "Route": "uploads/00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg",
-      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg",
+      "Route": "uploads/02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg",
+      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22374,7 +22395,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "4508212"
+          "Value": "1112381"
         },
         {
           "Name": "Content-Type",
@@ -22382,11 +22403,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CU3FYA7+R1Vj+2o5yKhWycoKA0rlYBXW105A9P7uYjs=\""
+          "Value": "\"iwl+ak5FqsKS+zPGpYdq5xPPMf/zxer4LGgPS3ZnBss=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:56:36 GMT"
+          "Value": "Mon, 25 Aug 2025 07:28:11 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22396,13 +22417,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CU3FYA7+R1Vj+2o5yKhWycoKA0rlYBXW105A9P7uYjs="
+          "Value": "sha256-iwl+ak5FqsKS+zPGpYdq5xPPMf/zxer4LGgPS3ZnBss="
         }
       ]
     },
     {
-      "Route": "uploads/2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.gieqohk07p.jpg",
-      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg",
+      "Route": "uploads/50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png",
+      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -22411,19 +22432,56 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "5391293"
+          "Value": "232903"
         },
         {
           "Name": "Content-Type",
-          "Value": "image/jpeg"
+          "Value": "image/png"
         },
         {
           "Name": "ETag",
-          "Value": "\"+AenhxhLbMoQtRkRs1eJGgyoqfNtBF27Mo9gpFjpi5s=\""
+          "Value": "\"P+slpplPmf4AegYcqPSa6PBnXVTD2idIpicvv9TBKlA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:56:36 GMT"
+          "Value": "Fri, 22 Aug 2025 08:10:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-P+slpplPmf4AegYcqPSa6PBnXVTD2idIpicvv9TBKlA="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.rp2uutlzwr.png",
+      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "232903"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"P+slpplPmf4AegYcqPSa6PBnXVTD2idIpicvv9TBKlA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 08:10:25 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -22433,134 +22491,15 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "gieqohk07p"
+          "Value": "rp2uutlzwr"
         },
         {
           "Name": "label",
-          "Value": "uploads/2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg"
+          "Value": "uploads/50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png"
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+AenhxhLbMoQtRkRs1eJGgyoqfNtBF27Mo9gpFjpi5s="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg",
-      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "5391293"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+AenhxhLbMoQtRkRs1eJGgyoqfNtBF27Mo9gpFjpi5s=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:56:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+AenhxhLbMoQtRkRs1eJGgyoqfNtBF27Mo9gpFjpi5s="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].2kvt7l3zg4.mp4",
-      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49440434"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "video/mp4"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AhAo0NFM+QtnkMFf0+wQG9zGt48nlyKS/8P1Vh8IUl4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:56:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "2kvt7l3zg4"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-AhAo0NFM+QtnkMFf0+wQG9zGt48nlyKS/8P1Vh8IUl4="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4",
-      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "49440434"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "video/mp4"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"AhAo0NFM+QtnkMFf0+wQG9zGt48nlyKS/8P1Vh8IUl4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:56:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-AhAo0NFM+QtnkMFf0+wQG9zGt48nlyKS/8P1Vh8IUl4="
+          "Value": "sha256-P+slpplPmf4AegYcqPSa6PBnXVTD2idIpicvv9TBKlA="
         }
       ]
     },
@@ -22647,6 +22586,88 @@
       ]
     },
     {
+      "Route": "uploads/5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.htqirjcayh.png",
+      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "844775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u0CrRBwRNUO4ZEbqkKIlfUAFlXrYTx2A3PrSEucKqlc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 08:10:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "htqirjcayh"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-u0CrRBwRNUO4ZEbqkKIlfUAFlXrYTx2A3PrSEucKqlc="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png",
+      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "844775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"u0CrRBwRNUO4ZEbqkKIlfUAFlXrYTx2A3PrSEucKqlc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 08:10:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-u0CrRBwRNUO4ZEbqkKIlfUAFlXrYTx2A3PrSEucKqlc="
+        }
+      ]
+    },
+    {
       "Route": "uploads/6050667f-b6ca-4230-8303-072c3cacf178_Gumayusi4K.5xavgh96jc.jpg",
       "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\6050667f-b6ca-4230-8303-072c3cacf178_Gumayusi4K.jpg",
       "Selectors": [],
@@ -22725,6 +22746,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-CU3FYA7+R1Vj+2o5yKhWycoKA0rlYBXW105A9P7uYjs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.bvnao3mkjk.mp4",
+      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42532655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qQR2356s8QW+3rwbSDp5LSukPM6aFT6S1elHb4bmMFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Aug 2025 07:28:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "bvnao3mkjk"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qQR2356s8QW+3rwbSDp5LSukPM6aFT6S1elHb4bmMFs="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.mp4",
+      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "42532655"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qQR2356s8QW+3rwbSDp5LSukPM6aFT6S1elHb4bmMFs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 25 Aug 2025 07:28:11 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qQR2356s8QW+3rwbSDp5LSukPM6aFT6S1elHb4bmMFs="
         }
       ]
     },
@@ -22893,88 +22996,6 @@
       ]
     },
     {
-      "Route": "uploads/a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.g7q0tbmct1.jpg",
-      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "275791"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VNJLP7Ma0Z6Cgu5/s7hM46lcrRwl4D7KPUV1FrLeHvw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:56:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "g7q0tbmct1"
-        },
-        {
-          "Name": "label",
-          "Value": "uploads/a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-VNJLP7Ma0Z6Cgu5/s7hM46lcrRwl4D7KPUV1FrLeHvw="
-        }
-      ]
-    },
-    {
-      "Route": "uploads/a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg",
-      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "275791"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "image/jpeg"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VNJLP7Ma0Z6Cgu5/s7hM46lcrRwl4D7KPUV1FrLeHvw=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 21 Aug 2025 08:56:36 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=3600, must-revalidate"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VNJLP7Ma0Z6Cgu5/s7hM46lcrRwl4D7KPUV1FrLeHvw="
-        }
-      ]
-    },
-    {
       "Route": "uploads/af3a4197-ec2f-4551-bee6-f8b1b883da79_Faker4K.gieqohk07p.jpg",
       "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\af3a4197-ec2f-4551-bee6-f8b1b883da79_Faker4K.jpg",
       "Selectors": [],
@@ -23135,6 +23156,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-AhAo0NFM+QtnkMFf0+wQG9zGt48nlyKS/8P1Vh8IUl4="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4",
+      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y8s3yNen7Xn+AW6J1kpwb7yUBtVEIpWH5kL0iKEVLsM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 08:10:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y8s3yNen7Xn+AW6J1kpwb7yUBtVEIpWH5kL0iKEVLsM="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.pd3qp61kxq.mp4",
+      "AssetFile": "D:\\SU25\\PRN222\\ReWork\\GameHub\\GameHub_DoanMinhKien_SE170383\\GameHub_DoanMinhKien_SE170383\\wwwroot\\uploads\\ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158452"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Y8s3yNen7Xn+AW6J1kpwb7yUBtVEIpWH5kL0iKEVLsM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 22 Aug 2025 08:10:25 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "pd3qp61kxq"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Y8s3yNen7Xn+AW6J1kpwb7yUBtVEIpWH5kL0iKEVLsM="
         }
       ]
     },

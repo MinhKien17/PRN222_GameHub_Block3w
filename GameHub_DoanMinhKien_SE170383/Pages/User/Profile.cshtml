@@ -61,6 +61,12 @@
                 <input type="hidden" asp-for="UserProfile.ProfilePictureUrl" id="hiddenProfilePictureUrl" />
 
                 <div class="mb-3">
+                    <p>
+                        <strong>Last Login:</strong> @Model.UserProfile?.LastLogin
+                    </p>
+				</div>
+
+                <div class="mb-3">
                     <label asp-for="UserProfile.Username" class="form-label">Name</label>
                     <input asp-for="UserProfile.Username" class="form-control" />
                 </div>

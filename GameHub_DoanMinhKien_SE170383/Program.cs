@@ -35,6 +35,7 @@ builder.Services.AddScoped<IMediaRepository, MediaRepository>();
 builder.Services.AddScoped<IGameService, GameService>();
 builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<IPlayerLibraryService, PlayerLibraryService>();
 
 //Config for file upload
 builder.Services.Configure<FormOptions>(options =>

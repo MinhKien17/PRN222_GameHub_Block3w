@@ -9,6 +9,7 @@ using DataAccessLayer.Models;
 using BusinessLogicLayer.Service;
 using BusinessLogicLayer.DTO;
 using Microsoft.AspNetCore.Authorization;
+using X.PagedList;
 
 namespace GameHub_DoanMinhKien_SE170383.Pages.Games
 {
@@ -20,17 +21,29 @@ namespace GameHub_DoanMinhKien_SE170383.Pages.Games
         {
             _gameService = gameService;
         }
-        public List<GameDTO> Game { get; set; } = default!;
+        public StaticPagedList<GameDTO> Game { get; set; } = default!;
+
+        [BindProperty(SupportsGet = true)]
+        public string? searchString { get; set; }
+
+        [BindProperty(SupportsGet = true)]
+        public int pageNumber { get; set; } = 1;
+
+        [BindProperty(SupportsGet = true)]
+        public int pageSize { get; set; } = 5;
 
         public async Task OnGetAsync()
         {
             try
             {
-                Game = await _gameService.GetAllGamesAsync();
+                Game = await _gameService.GetAllGamesAsync(searchString, pageNumber, pageSize);
             }
             catch (Exception ex)
             {
-                Game = new List<GameDTO>(); // Ensure Game is initialized even on error
+                // Log the exception (you can use a logging framework here)
+                Console.WriteLine(ex.Message);
+                // Handle the error appropriately (e.g., show an error message to the user)
+                ModelState.AddModelError(string.Empty, "An error occurred while loading the games.");
             }
         }
     }

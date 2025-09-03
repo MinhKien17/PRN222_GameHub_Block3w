@@ -54,6 +54,12 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
+          "dependencies": {
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[10.5.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -146,6 +152,10 @@
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
               "version": "[9.0.8, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[10.5.9, )"
             }
           },
           "imports": [

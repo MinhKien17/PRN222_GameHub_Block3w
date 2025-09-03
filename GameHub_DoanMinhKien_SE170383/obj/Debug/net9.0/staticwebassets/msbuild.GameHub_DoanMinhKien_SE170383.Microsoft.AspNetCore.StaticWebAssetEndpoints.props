@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GameHub_DoanMinhKien_SE170383.ftg4ecjjut.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3WMHSTsiC83AUj3ZEJkpXJjtiEKcX08dL43n2RWkKVA="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1147"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223WMHSTsiC83AUj3ZEJkpXJjtiEKcX08dL43n2RWkKVA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:34:47 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1147"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223WMHSTsiC83AUj3ZEJkpXJjtiEKcX08dL43n2RWkKVA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 03 Sep 2025 07:51:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/GameHub_DoanMinhKien_SE170383.ftg4ecjjut.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\GameHub_DoanMinhKien_SE170383.ftg4ecjjut.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ftg4ecjjut"},{"Name":"integrity","Value":"sha256-3WMHSTsiC83AUj3ZEJkpXJjtiEKcX08dL43n2RWkKVA="},{"Name":"label","Value":"_content/GameHub_DoanMinhKien_SE170383/GameHub_DoanMinhKien_SE170383.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1147"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223WMHSTsiC83AUj3ZEJkpXJjtiEKcX08dL43n2RWkKVA=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:34:47 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1147"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u00223WMHSTsiC83AUj3ZEJkpXJjtiEKcX08dL43n2RWkKVA=\u0022"},{"Name":"Last-Modified","Value":"Wed, 03 Sep 2025 07:51:55 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/img/user-default.27f4a9a6p7.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\img\user-default.jpg'))</AssetFile>
@@ -792,41 +792,29 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1117"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022hjIBkvmgxQXbNXK3B9YQ3t06RwLuQSQzC/dpvuB/lMk=\u0022"},{"Name":"Last-Modified","Value":"Tue, 19 Aug 2025 08:04:06 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.5xavgh96jc.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.h9mrh7m7pa.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"5xavgh96jc"},{"Name":"integrity","Value":"sha256-CU3FYA7\u002BR1Vj\u002B2o5yKhWycoKA0rlYBXW105A9P7uYjs="},{"Name":"label","Value":"_content/GameHub_DoanMinhKien_SE170383/uploads/00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"4508212"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022CU3FYA7\u002BR1Vj\u002B2o5yKhWycoKA0rlYBXW105A9P7uYjs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:56:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"h9mrh7m7pa"},{"Name":"integrity","Value":"sha256-iwl\u002Bak5FqsKS\u002BzPGpYdq5xPPMf/zxer4LGgPS3ZnBss="},{"Name":"label","Value":"_content/GameHub_DoanMinhKien_SE170383/uploads/02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1112381"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022iwl\u002Bak5FqsKS\u002BzPGpYdq5xPPMf/zxer4LGgPS3ZnBss=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Aug 2025 07:28:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\00d1fad4-f3d6-4195-919c-667b28c2ab17_Gumayusi4K.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\02f3d8ba-8371-400c-84bb-12df4bf21274_pexels-xincheng-zhang-20199230-31236772.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CU3FYA7\u002BR1Vj\u002B2o5yKhWycoKA0rlYBXW105A9P7uYjs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4508212"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022CU3FYA7\u002BR1Vj\u002B2o5yKhWycoKA0rlYBXW105A9P7uYjs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:56:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-iwl\u002Bak5FqsKS\u002BzPGpYdq5xPPMf/zxer4LGgPS3ZnBss="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"1112381"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022iwl\u002Bak5FqsKS\u002BzPGpYdq5xPPMf/zxer4LGgPS3ZnBss=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Aug 2025 07:28:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.gieqohk07p.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gieqohk07p"},{"Name":"integrity","Value":"sha256-\u002BAenhxhLbMoQtRkRs1eJGgyoqfNtBF27Mo9gpFjpi5s="},{"Name":"label","Value":"_content/GameHub_DoanMinhKien_SE170383/uploads/2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5391293"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022\u002BAenhxhLbMoQtRkRs1eJGgyoqfNtBF27Mo9gpFjpi5s=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:56:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-P\u002BslpplPmf4AegYcqPSa6PBnXVTD2idIpicvv9TBKlA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"232903"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022P\u002BslpplPmf4AegYcqPSa6PBnXVTD2idIpicvv9TBKlA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 22 Aug 2025 08:10:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2b9ef560-d537-4b31-bdc6-f33965f9574a_Faker4K.jpg'))</AssetFile>
+    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.rp2uutlzwr.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BAenhxhLbMoQtRkRs1eJGgyoqfNtBF27Mo9gpFjpi5s="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5391293"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022\u002BAenhxhLbMoQtRkRs1eJGgyoqfNtBF27Mo9gpFjpi5s=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:56:36 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].2kvt7l3zg4.mp4">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"2kvt7l3zg4"},{"Name":"integrity","Value":"sha256-AhAo0NFM\u002BQtnkMFf0\u002BwQG9zGt48nlyKS/8P1Vh8IUl4="},{"Name":"label","Value":"_content/GameHub_DoanMinhKien_SE170383/uploads/3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - \u201CSucker\u201D (from Arcane Season 2) [Official Visualizer].mp4"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49440434"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022AhAo0NFM\u002BQtnkMFf0\u002BwQG9zGt48nlyKS/8P1Vh8IUl4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:56:36 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\3953c380-671c-4ff2-9631-91f69aa8817e_Marcus King - “Sucker” (from Arcane Season 2) [Official Visualizer].mp4'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AhAo0NFM\u002BQtnkMFf0\u002BwQG9zGt48nlyKS/8P1Vh8IUl4="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49440434"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022AhAo0NFM\u002BQtnkMFf0\u002BwQG9zGt48nlyKS/8P1Vh8IUl4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:56:36 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rp2uutlzwr"},{"Name":"integrity","Value":"sha256-P\u002BslpplPmf4AegYcqPSa6PBnXVTD2idIpicvv9TBKlA="},{"Name":"label","Value":"_content/GameHub_DoanMinhKien_SE170383/uploads/50f1fef8-92f9-4ca8-b831-40df753c1642_Screenshot 2025-02-12 213338.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"232903"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022P\u002BslpplPmf4AegYcqPSa6PBnXVTD2idIpicvv9TBKlA=\u0022"},{"Name":"Last-Modified","Value":"Fri, 22 Aug 2025 08:10:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/57bc23e1-a0f6-4fd5-9ece-8fe22770b985_Faker4K.gieqohk07p.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\57bc23e1-a0f6-4fd5-9ece-8fe22770b985_Faker4K.jpg'))</AssetFile>
@@ -840,6 +828,18 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002BAenhxhLbMoQtRkRs1eJGgyoqfNtBF27Mo9gpFjpi5s="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5391293"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022\u002BAenhxhLbMoQtRkRs1eJGgyoqfNtBF27Mo9gpFjpi5s=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:26:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.htqirjcayh.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"htqirjcayh"},{"Name":"integrity","Value":"sha256-u0CrRBwRNUO4ZEbqkKIlfUAFlXrYTx2A3PrSEucKqlc="},{"Name":"label","Value":"_content/GameHub_DoanMinhKien_SE170383/uploads/5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"844775"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022u0CrRBwRNUO4ZEbqkKIlfUAFlXrYTx2A3PrSEucKqlc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 22 Aug 2025 08:10:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5f5d2370-aa61-4675-9409-e0a9101e40d7_Screenshot 2025-02-12 210639.png'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-u0CrRBwRNUO4ZEbqkKIlfUAFlXrYTx2A3PrSEucKqlc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"844775"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\u0022u0CrRBwRNUO4ZEbqkKIlfUAFlXrYTx2A3PrSEucKqlc=\u0022"},{"Name":"Last-Modified","Value":"Fri, 22 Aug 2025 08:10:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/6050667f-b6ca-4230-8303-072c3cacf178_Gumayusi4K.5xavgh96jc.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6050667f-b6ca-4230-8303-072c3cacf178_Gumayusi4K.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -851,6 +851,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-CU3FYA7\u002BR1Vj\u002B2o5yKhWycoKA0rlYBXW105A9P7uYjs="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"4508212"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022CU3FYA7\u002BR1Vj\u002B2o5yKhWycoKA0rlYBXW105A9P7uYjs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:26:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.bvnao3mkjk.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"bvnao3mkjk"},{"Name":"integrity","Value":"sha256-qQR2356s8QW\u002B3rwbSDp5LSukPM6aFT6S1elHb4bmMFs="},{"Name":"label","Value":"_content/GameHub_DoanMinhKien_SE170383/uploads/6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear \uFF5C Champion Theme - League of Legends.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"42532655"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022qQR2356s8QW\u002B3rwbSDp5LSukPM6aFT6S1elHb4bmMFs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Aug 2025 07:28:11 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\6f865b7f-4e72-4195-963a-2657e0b8154a_Pantheon, the Unbreakable Spear ｜ Champion Theme - League of Legends.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-qQR2356s8QW\u002B3rwbSDp5LSukPM6aFT6S1elHb4bmMFs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"42532655"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022qQR2356s8QW\u002B3rwbSDp5LSukPM6aFT6S1elHb4bmMFs=\u0022"},{"Name":"Last-Modified","Value":"Mon, 25 Aug 2025 07:28:11 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/77a21e12-5ecc-477d-b929-4da771e9e036_Black Myth： Zhong Kui - Official Reveal Trailer ｜ gamescom 2025.j10nczyp1i.mp4">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\77a21e12-5ecc-477d-b929-4da771e9e036_Black Myth： Zhong Kui - Official Reveal Trailer ｜ gamescom 2025.mp4'))</AssetFile>
@@ -876,18 +888,6 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"rbycnckwt2"},{"Name":"integrity","Value":"sha256-OWD/\u002Bt2adEimPyjOfj9\u002BfX/XFGrlImX7qA2cmQ3wAIE="},{"Name":"label","Value":"_content/GameHub_DoanMinhKien_SE170383/uploads/93675256-3c6c-441c-9f79-b2bf8ee129b5_Windstorm\uFF1A The Legend of Khiimori - Official Early Access Release Date Trailer.mp4"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"49538941"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022OWD/\u002Bt2adEimPyjOfj9\u002BfX/XFGrlImX7qA2cmQ3wAIE=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 07:48:13 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.g7q0tbmct1.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"g7q0tbmct1"},{"Name":"integrity","Value":"sha256-VNJLP7Ma0Z6Cgu5/s7hM46lcrRwl4D7KPUV1FrLeHvw="},{"Name":"label","Value":"_content/GameHub_DoanMinhKien_SE170383/uploads/a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"275791"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022VNJLP7Ma0Z6Cgu5/s7hM46lcrRwl4D7KPUV1FrLeHvw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:56:36 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg">
-      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\a2710717-a4c1-444f-902a-df2f44c7eaab_Azir.jpg'))</AssetFile>
-      <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VNJLP7Ma0Z6Cgu5/s7hM46lcrRwl4D7KPUV1FrLeHvw="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"275791"},{"Name":"Content-Type","Value":"image/jpeg"},{"Name":"ETag","Value":"\u0022VNJLP7Ma0Z6Cgu5/s7hM46lcrRwl4D7KPUV1FrLeHvw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:56:36 GMT"}]]]></ResponseHeaders>
-    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/af3a4197-ec2f-4551-bee6-f8b1b883da79_Faker4K.gieqohk07p.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\af3a4197-ec2f-4551-bee6-f8b1b883da79_Faker4K.jpg'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -911,6 +911,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-AhAo0NFM\u002BQtnkMFf0\u002BwQG9zGt48nlyKS/8P1Vh8IUl4="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"49440434"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022AhAo0NFM\u002BQtnkMFf0\u002BwQG9zGt48nlyKS/8P1Vh8IUl4=\u0022"},{"Name":"Last-Modified","Value":"Thu, 21 Aug 2025 08:26:33 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-Y8s3yNen7Xn\u002BAW6J1kpwb7yUBtVEIpWH5kL0iKEVLsM="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"158452"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022Y8s3yNen7Xn\u002BAW6J1kpwb7yUBtVEIpWH5kL0iKEVLsM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 22 Aug 2025 08:10:25 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.pd3qp61kxq.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"pd3qp61kxq"},{"Name":"integrity","Value":"sha256-Y8s3yNen7Xn\u002BAW6J1kpwb7yUBtVEIpWH5kL0iKEVLsM="},{"Name":"label","Value":"_content/GameHub_DoanMinhKien_SE170383/uploads/ccf947a3-3c24-432b-97eb-d4bd312e2f44_Taparus Chai -Via KLICKPIN CF.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"158452"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022Y8s3yNen7Xn\u002BAW6J1kpwb7yUBtVEIpWH5kL0iKEVLsM=\u0022"},{"Name":"Last-Modified","Value":"Fri, 22 Aug 2025 08:10:25 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/GameHub_DoanMinhKien_SE170383/uploads/df515910-98ac-4d31-891d-797f4b7847f6_Gumayusi4K.5xavgh96jc.jpg">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\df515910-98ac-4d31-891d-797f4b7847f6_Gumayusi4K.jpg'))</AssetFile>

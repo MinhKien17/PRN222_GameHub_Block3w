@@ -76,6 +76,10 @@
             "Microsoft.Extensions.Identity.Core": {
               "target": "Package",
               "version": "[9.0.8, )"
+            },
+            "X.PagedList": {
+              "target": "Package",
+              "version": "[10.5.9, )"
             }
           },
           "imports": [
